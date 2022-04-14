@@ -1,13 +1,10 @@
 .products {
-  padding: 40px 55px;
+  padding: 40px 50px;
   text-align: center;
 }
-.products h2 {
-  font-size: 40px;
-  color: #000;
-}
-.products p {
-  margin: 20px 0;
+.products h2{
+  margin-bottom: 15px;
+  font-size: 30px;
 }
 .pro_container {
   margin-top: 30px;
@@ -18,47 +15,48 @@
 .pro {
   background-color: white;
   width: 20%;
-  height: 50%;
+  height: 380px;
   min-width: 250px;
-  padding: 10px 12px;
+  padding: 10px 8px;
   border: 1px solid #cce7d0;
   border-radius: 25px;
-  position: relative;
   margin: 15px 5px;
 }
 .pro:hover {
   cursor: pointer;
   box-shadow: 10px 10px 54px rgba(31, 30, 48, 0.15);
 }
-.pro img {
-  width: 80%;
-  height: 50%;
-  margin-top: 20px;
-}
-.pro svg {
-  border-radius: 50%;
-}
-
-.pro svg:hover {
-  color: blue;
-}
-.img {
+.pro_img{
   width: 100%;
-  border-radius: 20px;
+  height: 75%;
+  overflow: hidden;
 }
-.pro_des {
-  text-align: start;
-  padding: 10px 5px;
+.pro_img img{
+  width: 80%;
+  padding: 10px 10px;
+  height: 80%;
 }
-.pro_des h5 {
-  padding-top: 10px;
+.pro_des{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+  margin-left: 15px;
 }
-.pro_des h4 {
-  padding-top: 10px;
-  color: #088178;
+.pro_des h5{
+  margin: 10px 0;
 }
-.cart {
-  position: absolute;
-  bottom: 20px;
-  margin-left: 90px;
+.product_price{
+  display: flex;
+  justify-content: space-between;
+}
+.product_price h6{
+  color: #0ec1dd;
+}
+.product_cart{
+  margin-right: 15px;
+}
+.product_cart:hover{
+  cursor: pointer;;
+  color: #0ec1dd;
 }

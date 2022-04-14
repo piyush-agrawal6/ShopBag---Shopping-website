@@ -4,7 +4,7 @@ import MenProducts from "./MenProducts"
 const Men = () => {
   return (
     <div>
-           <MenProducts/>
+           {/* <MenProducts/> */}
     </div>
   )
 }

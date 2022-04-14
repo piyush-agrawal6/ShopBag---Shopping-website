@@ -38,15 +38,19 @@ const Products = () => {
           <div className="pro_container">
             {filter.map((product) => {
               return (
-                  <div className="pro">
-                    <img className="img" src={product.image} alt="" />
-                    <div className="pro_des">
-                      <span>{product.rating.rate}</span>
-                      <h5>{product.title}</h5>
-                      <h4>{product.price}$</h4>
-                    </div>
-                    <AddShoppingCartIcon className="cart" />
+                <div className="pro">
+                  <div className="pro_img">
+                    <img src={product.image} alt="" />
                   </div>
+                  <div className="pro_des">
+                    <span>{product.rating.rate} star</span>
+                    <h5>{product.title.substring(0, 12)}</h5>
+                    <div className="product_price">
+                      <h6>{product.price}$</h6>
+                      <AddShoppingCartIcon className="product_cart" />
+                    </div>
+                  </div>
+                </div>
               );
             })}
           </div>
