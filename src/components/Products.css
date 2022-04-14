@@ -3,8 +3,30 @@
   text-align: center;
 }
 .products h2{
-  margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 35px;
+}
+.product_filter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0;
+
+}
+.product_buttons{
+  padding: 10px 12px;
+  border-radius: 3px;
+  border: 2px solid black;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0 7px;
+}
+.product_buttons:hover{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.588);
+  border: 2px solid rgba(0, 0, 0, 0.066);
 }
 .pro_container {
   margin-top: 30px;

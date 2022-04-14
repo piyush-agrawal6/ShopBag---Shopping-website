@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Categories.css"
+import "./Categories.css";
 
 const Categories = () => {
   return (
     <div>
-            <div className="categories">
+      <h1 className="categories_head">MORE CATEGORIES</h1>
+      <div className="categories">
         <NavLink to="/shirts">
           <img src="./assets/categories/c1.webp" alt="" />
         </NavLink>
@@ -44,7 +45,7 @@ const Categories = () => {
         </NavLink>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Categories
+export default Categories;
