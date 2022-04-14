@@ -1,0 +1,64 @@
+.products {
+  padding: 40px 55px;
+  text-align: center;
+}
+.products h2 {
+  font-size: 40px;
+  color: #000;
+}
+.products p {
+  margin: 20px 0;
+}
+.pro_container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pro {
+  background-color: white;
+  width: 20%;
+  height: 50%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  position: relative;
+  margin: 15px 5px;
+}
+.pro:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 54px rgba(31, 30, 48, 0.15);
+}
+.pro img {
+  width: 80%;
+  height: 50%;
+  margin-top: 20px;
+}
+.pro svg {
+  border-radius: 50%;
+}
+
+.pro svg:hover {
+  color: blue;
+}
+.img {
+  width: 100%;
+  border-radius: 20px;
+}
+.pro_des {
+  text-align: start;
+  padding: 10px 5px;
+}
+.pro_des h5 {
+  padding-top: 10px;
+}
+.pro_des h4 {
+  padding-top: 10px;
+  color: #088178;
+}
+.cart {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 90px;
+}

@@ -1,0 +1,6 @@
+.thumbs{
+  display: none;
+}
+.carousel.carousel-slider .control-arrow {
+  background-color: rgba(0, 0, 0, 0.382);
+}

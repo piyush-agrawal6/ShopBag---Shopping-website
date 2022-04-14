@@ -1,0 +1,11 @@
+.categories {
+       margin: 40px 25px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+     }
+     .categories img {
+       width: 210px;
+       height: auto;
+       margin: 10px 10px;
+     }
